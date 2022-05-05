@@ -19,7 +19,7 @@ section {
 nav {
   position: absolute;
   width: 100%;
-  background: whitesmoke;
+  background: red;
   display: flex;
   justify-content: space-between;
   padding: 8px 30px;
@@ -29,7 +29,7 @@ nav {
 nav h3 a {
   text-decoration: none;
   color: black;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 ul {
@@ -61,27 +61,14 @@ li a:hover {
   min-height: 100vh;
   background: red;
   position: relative;
-  border: 1px solid black;
 }
 
 #wtext {
-  font-size: 250%;
-}
-.svgtext {
-  width: 70%;
-  animation-name: sideslide;
-  animation-duration: 1s;
-}
-/*animazione svg escher pagina iniziale*/
-@keyframes sideslide {
-  0% {
-    transform: translateX(-1500px);
-  }
+  font-size: 1000%;
+  position: absolute;
+  right: 0;
 }
 
-#cerchio {
-  width: 25%;
-}
 #downarrow {
   position: absolute;
   width: 10vh;
