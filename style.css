@@ -53,14 +53,15 @@ li a:hover {
 /*INIZIO PRIMA SEZIONE WELCOME PAGE*/
 #welcomepage {
   min-height: 100vh;
-  background: linear-gradient(90deg, #fcf4a3 38vw, #ffe42b 38vw);
+  background: red;
 }
 
 .containertext {
   padding-top: 4em;
   min-height: 100vh;
-  background: linear-gradient(90deg, #fcf4a3 38vw, #ffe42b 38vw);
+  background: red;
   position: relative;
+  border: 1px solid black;
 }
 
 #wtext {
