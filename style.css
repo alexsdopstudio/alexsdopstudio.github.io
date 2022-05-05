@@ -332,12 +332,7 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-  #wtext {
-    font-size: 150%;
-  }
-  #cerchio {
-    width: 70%;
-  }
+
 }
 /* responsive gallery grid telefono */
 @media only screen and (max-width: 768px) {
@@ -441,9 +436,7 @@ footer {
   
 }
 @media only screen and (max-width: 600px) {
-  #cerchio {
-    width: 100%;
-  }
+
   ul li a {
     text-decoration: none;
     color: black;
@@ -509,9 +502,7 @@ footer {
   }
 }
 @media only screen and (max-width: 500px) {
-  .arrow {
-    width: 11vw;
-  }
+
   .lastcontainer {
     display: grid;
     grid-template-columns: 1fr;
